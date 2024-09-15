@@ -36,3 +36,54 @@
     display: block;
     max-inline-size: 100%;
   }
+
+/* -------------------------------- */
+
+* {
+  brder: 2px solid rgb(0, 21, 255);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(131, 131, 131);
+}
+
+.main-body {
+  border: 2px solid red;
+  width: 800px;
+}
+
+.nav-bar {
+  background-color: red;
+  height: 30px;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+h1 {
+  margin-left: 95px;
+  transform: translateY(-2px);
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  transform: translateY(-30px);
+  margin-right: 75px;
+}
+
+ul {
+  background-color: red;
+}
+
+li {
+  display: inline;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.txt {
+  width: 400px;
+}
